@@ -1,0 +1,43 @@
+@charset 'utf-8';
+
+.stage {
+    max-width: $stage-width;
+    margin: 0 auto;
+}
+
+header {
+    padding: 8px;
+    .doctitle {
+       font-size: 20px;
+       color: #555;
+       line-height: 2em;
+    }
+}
+
+.relbar {
+    //background-color: #EEE;
+}
+
+.topic-path {
+    line-height: 1.8em;
+
+    li {
+        display: inline-block;
+        padding: 0 3px;
+        a { color: #888; }
+        a:hover{ color: #AAA; }
+    }
+    li:after{
+        content: " / ";
+        color: #888;
+    }
+}
+footer {
+    margin-top: 40px;
+    padding: 24px 0;
+    background-color: #EEE;
+    color: #777;
+    text-align: center;
+    line-height: 1.6em;
+
+}

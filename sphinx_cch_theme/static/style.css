@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/**************************************************
+   Stylesheet for sphinx_cch_theme
+
+     :Auther:  t-hanya
+     :Date:    2016-04-09
+     :Version: 0.1
+
+***************************************************/
+/* parameters */
+/* reset */
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* base style */
+/* font */
+html {
+  line-height: 1.6em;
+  font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* font-size */
+body {
+  font-size: 14px; }
+
+/* image */
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none; }
+
+/* layout */
+.stage {
+  max-width: 840px;
+  margin: 0 auto; }
+
+header {
+  padding: 8px; }
+  header .doctitle {
+    font-size: 20px;
+    color: #555;
+    line-height: 2em; }
+
+.topic-path {
+  line-height: 1.8em; }
+  .topic-path li {
+    display: inline-block;
+    padding: 0 3px; }
+    .topic-path li a {
+      color: #888; }
+    .topic-path li a:hover {
+      color: #AAA; }
+  .topic-path li:after {
+    content: " / ";
+    color: #888; }
+
+footer {
+  margin-top: 40px;
+  padding: 24px 0;
+  background-color: #EEE;
+  color: #777;
+  text-align: center;
+  line-height: 1.6em; }
+
+/* sphinx */
+.sphinx {
+  padding: 10px 10px; }
+  .sphinx img {
+    margin: 20px 0; }
+  .sphinx a {
+    color: #2A7090; }
+  .sphinx a:hover {
+    color: #84AFC2; }
+  .sphinx li a {
+    border-bottom: dotted 1px gray; }
+  .sphinx li a:hover {
+    border-bottom: dotted 1px gray; }
+  .sphinx hr {
+    border-bottom: none;
+    border-top: dashed 1px #DDD;
+    margin: 20px 20px; }
+  .sphinx em {
+    font-weight: bold; }
+  .sphinx strong {
+    font-weight: bold;
+    color: #B33; }
+  .sphinx cite {
+    font-style: italic; }
+  .sphinx code {
+    background-color: #FEE;
+    color: #B33;
+    padding: 1px 3px;
+    font-family: Courier; }
+  .sphinx table.field-list {
+    font-size: 1.0em;
+    margin: 10px 10px; }
+  .sphinx table.field-list th,
+  .sphinx table.field-list td {
+    border: none;
+    padding: 5px 8px; }
+  .sphinx table.field-list th {
+    text-align: right; }
+  .sphinx #contents {
+    padding: 5px 5px;
+    margin: 20px 10px;
+    border-top: solid 2px #CCC;
+    border-bottom: solid 2px #CCC; }
+    .sphinx #contents .topic-title {
+      font-size: 1.1em;
+      line-height: 2em; }
+    .sphinx #contents a {
+      text-decoration: none; }
+    .sphinx #contents li {
+      line-height: 1.5em; }
+  .sphinx .section > p {
+    line-height: 1.6em;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-bottom: 0.3em; }
+  .sphinx blockquote {
+    border: solid 1px #DDD;
+    background-color: #EEE;
+    line-height: 1.6em;
+    padding: 15px 10px 8px; }
+    .sphinx blockquote p:first-child:before {
+      content: "”";
+      font-size: 3em;
+      color: #CCC; }
+    .sphinx blockquote .attribution {
+      font-style: italic;
+      text-align: right; }
+  .sphinx h1 {
+    font-size: 2.2em;
+    margin-top: 1.6em;
+    margin-bottom: 1.0em; }
+  .sphinx h2 {
+    font-size: 1.8em;
+    margin-top: 2.0em;
+    margin-bottom: 1.0em; }
+  .sphinx h3 {
+    font-size: 1.5em;
+    margin-top: 2.0em;
+    margin-bottom: 1.0em; }
+  .sphinx h4 {
+    font-size: 1.2em;
+    margin-top: 2.0em;
+    margin-bottom: 1.0em; }
+  .sphinx h5 {
+    font-size: 1.0em;
+    margin-top: 2.0em;
+    margin-bottom: 1.0em; }
+  .sphinx h6 {
+    font-size: 1.0em;
+    margin-top: 2.0em;
+    margin-bottom: 1.0em; }
+  .sphinx h2 {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #DDD; }
+  .sphinx a.toc-backref {
+    color: #454545;
+    text-decoration: none;
+    font-weight: bold; }
+  .sphinx a.headerlink {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px; }
+  .sphinx ul {
+    list-style: square;
+    margin-left: 2em; }
+  .sphinx ol {
+    list-style: decimal;
+    margin-left: 2em; }
+  .sphinx dd {
+    margin-left: 2em; }
+  .sphinx dd > ul,
+  .sphinx dd > ol {
+    margin-left: 0; }
+  .sphinx li,
+  .sphinx dd {
+    line-height: 1.6em; }
+  .sphinx dt {
+    line-height: 1.8em; }
+  .sphinx ul {
+    padding-bottom: 5px;
+    margin-top: 5px; }
+  .sphinx ol {
+    padding-bottom: 5px;
+    margin-top: 5px; }
+  .sphinx p + ul {
+    margin-top: 8px;
+    margin-bottom: 8px; }
+  .sphinx p + ol {
+    margin-top: 8px;
+    margin-bottom: 8px; }
+  .sphinx table {
+    margin-bottom: 5px; }
+  .sphinx table th,
+  .sphinx table td {
+    border: solid 1px #DDD;
+    padding: 6px 10px; }
+  .sphinx table th {
+    font-weight: bold;
+    background-color: #EEE; }
+  .sphinx .highlight {
+    word-wrap: break-word;
+    font-size: 14px;
+    font-family: Courier !important;
+    margin: 8px 8px 15px;
+    padding: 10px;
+    border: solid 1px #DDD;
+    border-radius: 6px;
+    line-height: 1.5em; }
+  .sphinx .highlighttable {
+    margin: 0;
+    padding: 0; }
+    .sphinx .highlighttable tr, .sphinx .highlighttable td {
+      padding: 0;
+      border: none; }
+    .sphinx .highlighttable td.linenos {
+      padding-top: 10px;
+      color: #888;
+      text-align: right;
+      font-size: 14px;
+      line-height: 1.5em; }
+    .sphinx .highlighttable td.code {
+      width: 100%; }
+  .sphinx table.footnote td {
+    border: none;
+    padding: 5px; }
+  .sphinx .admonition {
+    border-left: solid 3px #DDD;
+    background-color: #EEE;
+    padding: 6px 16px 12px;
+    margin: 14px 10px;
+    line-height: 1.5em; }
+  .sphinx .admonition-title {
+    color: #AAA;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-size: 0.9em; }
+  .sphinx .admonition.hint,
+  .sphinx .admonition.tip {
+    background-color: #D5EFFC;
+    border-color: #84AFC2; }
+  .sphinx .admonition.note {
+    background-color: #DBF6D4;
+    border-color: #88C17A; }
+  .sphinx .admonition.warning {
+    background-color: #FCFAD1;
+    border-color: #AEAB73; }
+  .sphinx .admonition.danger,
+  .sphinx .admonition.error {
+    background-color: #FFE8E8;
+    border-color: #CD9393; }
+  .sphinx .hint .admonition-title,
+  .sphinx .tip .admonition-title {
+    color: #70A6C1; }
+  .sphinx .note .admonition-title {
+    color: #6FAB60; }
+  .sphinx .warning .admonition-title {
+    color: #AEAB73; }
+  .sphinx .danger .admonition-title,
+  .sphinx .error .admonition-title {
+    color: #C26E6E; }
+  .sphinx .modindextable tr, .sphinx .modindextable th, .sphinx .modindextable td {
+    border: none; }
+
+/*# sourceMappingURL=style.css.map */

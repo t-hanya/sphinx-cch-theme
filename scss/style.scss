@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/**************************************************
+   Stylesheet for sphinx_cch_theme
+
+     :Auther:  t-hanya
+     :Date:    2016-04-09
+     :Version: 0.1
+
+***************************************************/
+
+/* parameters */
+
+$default-line-height: 1.6em; 
+$default-font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+$default-font-size: 14px;
+$stage-width: 840px;
+
+/* reset */
+@import 'reset';
+
+/* base style */
+@import 'base';
+
+/* layout */
+@import 'layout';
+
+/* sphinx */
+@import 'sphinx';
+

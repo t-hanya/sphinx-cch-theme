@@ -1,0 +1,52 @@
+{% extends "basic/layout.html" %}
+{%- block doctype %}
+<!DOCTYPE html>
+{%- endblock doctype %}
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+  <link rel="stylesheet" href="{{ pathto('_static/', 1) }}pygments.css" type="text/css" />
+</head>
+<body>
+{%- block header %}
+<header>
+  <div class="stage">
+    <a href="{{ pathto(master_doc) }}">
+      <h1 class="doctitle">{{ docstitle }}</h1>
+    </a>
+  </div>
+</header>
+{%- endblock header %}
+{%- block relbar1 %}
+<div class="relbar">
+  <div class="stage">
+    <ol class="topic-path">
+    <li><a href="{{ pathto(master_doc) }}">HOME</a></li>
+    {% for p in parents %}
+      <li><a href="{{ p.link|e }}">{{ p.title }}</a></li>
+    {% endfor %}
+    </ol>
+  </div>
+</div>
+{%- endblock %}
+{%- block sidebar1 %}{%- endblock %}
+{%- block document %}
+<div class="sphinx">
+  <div class="stage">
+    {%- block body %}{%- endblock body %}
+  </div>
+</div>
+{%- endblock document %}
+{%- block relbar2 %}{%- endblock %}
+{%- block sidebar2 %}{%- endblock %}
+{%- block footer %}
+<footer>
+  <div class="stage">
+    &copy; {{ copyright }}. Created using Sphinx {{ sphinx_version }}.
+  </div>
+</footer>
+{%- endblock footer %}
+</body>
+</html>
