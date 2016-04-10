@@ -25,7 +25,7 @@ Build demo site::
 
    $ pip install -U sphinx  # if necessary
    $ git clone <this repository>
-   $ cd demo
+   $ cd sphinx-cch-theme/demo
    $ make html
 
 And please open `./_build/html/index.html`
