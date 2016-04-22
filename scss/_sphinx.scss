@@ -16,12 +16,12 @@
 
      // emphasize
     em {      font-weight: bold;}
-    strong {  font-weight: bold; color: #B33; }
+    strong {  font-weight: bold; color: #D65340; }
     cite {    font-style: italic;}
-    code {    background-color: #FEE; color: #B33; padding: 1px 3px; font-family: Courier;}
+    code {    background-color: #FBEFED; color: #C82A13; padding: 1px 3px; font-family: Courier; border-radius: 2px; }
 
     // fieldlist
-    table.field-list { font-size: 1.0em; margin: 10px 10px;}
+    table.field-list { font-size: 1.0em; margin: 17px 10px;}
     table.field-list th,
     table.field-list td { border: none; padding: 5px 8px;}
     table.field-list th { text-align: right; }
@@ -29,7 +29,7 @@
     // table of contents 
     #contents {
         padding: 5px 5px;
-        margin: 20px 10px;
+        margin: 30px 10px;
         border-top: solid 2px #CCC;
         border-bottom: solid 2px #CCC;
 
@@ -69,7 +69,7 @@
     }
 
     // Heading
-    h1 {font-size: 2.2em; margin-top: 1.2em; margin-bottom: 1.0em; }
+    h1 {font-size: 2.2em; margin-top: 2.2em; margin-bottom: 1.3em; }
     h2 {font-size: 1.8em; margin-top: 2.0em; margin-bottom: 1.0em; }
     h3 {font-size: 1.5em; margin-top: 2.0em; margin-bottom: 1.0em; }
     h4 {font-size: 1.2em; margin-top: 2.0em; margin-bottom: 1.0em; }
@@ -155,18 +155,18 @@
         font-size: 0.9em;
     }
     .admonition.hint,
-    .admonition.tip    { background-color: #D5EFFC; border-color:#84AFC2; }
-    .admonition.note   { background-color: #DBF6D4; border-color:#88C17A; }
-    .admonition.warning{ background-color: #FCFAD1; border-color:#AEAB73; }
+    .admonition.tip    { background-color: #DCF9FC; border-color:#66AFB6; }
+    .admonition.note   { background-color: #DCF9FC; border-color:#66AFB6; }
+    .admonition.warning{ background-color: #FDF8E2; border-color:#D3C176; }
     .admonition.danger,
-    .admonition.error  { background-color: #FFE8E8; border-color:#CD9393; }
+    .admonition.error  { background-color: #FFECE9; border-color:#D98C81; }
 
     .hint    .admonition-title ,  
-    .tip     .admonition-title{ color: #70A6C1; }
-    .note    .admonition-title{ color: #6FAB60; }
-    .warning .admonition-title{ color: #AEAB73; }
+    .tip     .admonition-title{ color: #66AFB6; }
+    .note    .admonition-title{ color: #66AFB6; }
+    .warning .admonition-title{ color: #D3C176; }
     .danger  .admonition-title,
-    .error   .admonition-title{ color: #C26E6E; }
+    .error   .admonition-title{ color: #D98C81; }
 
     // module index
     .modindextable {

@@ -111,17 +111,18 @@ footer {
     font-weight: bold; }
   .sphinx strong {
     font-weight: bold;
-    color: #B33; }
+    color: #D65340; }
   .sphinx cite {
     font-style: italic; }
   .sphinx code {
-    background-color: #FEE;
-    color: #B33;
+    background-color: #FBEFED;
+    color: #C82A13;
     padding: 1px 3px;
-    font-family: Courier; }
+    font-family: Courier;
+    border-radius: 2px; }
   .sphinx table.field-list {
     font-size: 1.0em;
-    margin: 10px 10px; }
+    margin: 17px 10px; }
   .sphinx table.field-list th,
   .sphinx table.field-list td {
     border: none;
@@ -130,7 +131,7 @@ footer {
     text-align: right; }
   .sphinx #contents {
     padding: 5px 5px;
-    margin: 20px 10px;
+    margin: 30px 10px;
     border-top: solid 2px #CCC;
     border-bottom: solid 2px #CCC; }
     .sphinx #contents .topic-title {
@@ -159,8 +160,8 @@ footer {
       text-align: right; }
   .sphinx h1 {
     font-size: 2.2em;
-    margin-top: 1.2em;
-    margin-bottom: 1.0em; }
+    margin-top: 2.2em;
+    margin-bottom: 1.3em; }
   .sphinx h2 {
     font-size: 1.8em;
     margin-top: 2.0em;
@@ -268,28 +269,28 @@ footer {
     font-size: 0.9em; }
   .sphinx .admonition.hint,
   .sphinx .admonition.tip {
-    background-color: #D5EFFC;
-    border-color: #84AFC2; }
+    background-color: #DCF9FC;
+    border-color: #66AFB6; }
   .sphinx .admonition.note {
-    background-color: #DBF6D4;
-    border-color: #88C17A; }
+    background-color: #DCF9FC;
+    border-color: #66AFB6; }
   .sphinx .admonition.warning {
-    background-color: #FCFAD1;
-    border-color: #AEAB73; }
+    background-color: #FDF8E2;
+    border-color: #D3C176; }
   .sphinx .admonition.danger,
   .sphinx .admonition.error {
-    background-color: #FFE8E8;
-    border-color: #CD9393; }
+    background-color: #FFECE9;
+    border-color: #D98C81; }
   .sphinx .hint .admonition-title,
   .sphinx .tip .admonition-title {
-    color: #70A6C1; }
+    color: #66AFB6; }
   .sphinx .note .admonition-title {
-    color: #6FAB60; }
+    color: #66AFB6; }
   .sphinx .warning .admonition-title {
-    color: #AEAB73; }
+    color: #D3C176; }
   .sphinx .danger .admonition-title,
   .sphinx .error .admonition-title {
-    color: #C26E6E; }
+    color: #D98C81; }
   .sphinx .modindextable tr, .sphinx .modindextable th, .sphinx .modindextable td {
     border: none; }
 
