@@ -239,6 +239,12 @@ footer {
     border: solid 1px #DDD;
     border-radius: 6px;
     line-height: 1.5em; }
+  .sphinx .highlight-default .highlight {
+    border: none;
+    background-color: white; }
+  .sphinx .code.highlight-default .highlight {
+    border: solid 1px #DDD;
+    background-color: #EEE; }
   .sphinx .highlighttable {
     margin: 0;
     padding: 0; }

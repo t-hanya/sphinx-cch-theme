@@ -117,6 +117,16 @@
         border-radius: 6px;
         line-height: 1.5em;
     }
+    // for jupyter notebook
+    .highlight-default .highlight {
+        border: none;
+        background-color: white;
+    }
+    .code.highlight-default .highlight {
+        border: solid 1px #DDD;
+        background-color: #EEE;
+    }
+
     // Code Block with Line numbers
     .highlighttable {
         margin: 0;
