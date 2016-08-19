@@ -23,16 +23,18 @@
 </header>
 {%- endblock header %}
 {%- block relbar1 %}
+{% if parents %}
 <div class="relbar">
   <div class="stage">
     <ol class="topic-path">
-    <li><a href="{{ pathto(master_doc) }}">HOME</a></li>
-    {% for p in parents %}
+    <li><a href="{{ pathto(master_doc) }}">Home</a></li>
+    {%- for p in parents %}
       <li><a href="{{ p.link|e }}">{{ p.title }}</a></li>
-    {% endfor %}
+    {%- endfor %}
     </ol>
   </div>
 </div>
+{%- endif %}
 {%- endblock %}
 {%- block sidebar1 %}{%- endblock %}
 {%- block document %}
