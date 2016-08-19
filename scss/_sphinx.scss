@@ -12,13 +12,13 @@
     a:hover { color: #84AFC2; }
     li a       { border-bottom: dotted 1px gray; }
     li a:hover { border-bottom: dotted 1px gray; }
-    hr { border-bottom: none; border-top: dashed 1px #DDD; margin: 20px 20px; } 
+    hr { border: none; margin: 20px 20px; } 
 
      // emphasize
     em {      font-weight: bold;}
     strong {  font-weight: bold; color: #D65340; }
     cite {    font-style: italic;}
-    code {    background-color: #FBEFED; color: #C82A13; padding: 1px 3px; font-family: Courier; border-radius: 2px; }
+    code {    background-color: #F1F1F1; color: #333; padding: 1px 3px; font-family: Courier; border-radius: 2px; }
 
     // fieldlist
     table.field-list { font-size: 1.0em; margin: 17px 10px;}
@@ -165,11 +165,11 @@
         font-size: 0.9em;
     }
     .admonition.hint,
-    .admonition.tip    { background-color: #DCF9FC; border-color:#66AFB6; }
-    .admonition.note   { background-color: #DCF9FC; border-color:#66AFB6; }
-    .admonition.warning{ background-color: #FDF8E2; border-color:#D3C176; }
+    .admonition.tip    { background-color: #F3F3F3; border-color:#66AFB6; }
+    .admonition.note   { background-color: #F3F3F3; border-color:#66AFB6; }
+    .admonition.warning{ background-color: #F3F3F3; border-color:#D3C176; }
     .admonition.danger,
-    .admonition.error  { background-color: #FFECE9; border-color:#D98C81; }
+    .admonition.error  { background-color: #F3F3F3; border-color:#D98C81; }
 
     .hint    .admonition-title ,  
     .tip     .admonition-title{ color: #66AFB6; }

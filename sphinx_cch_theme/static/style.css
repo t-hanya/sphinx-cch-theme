@@ -104,8 +104,7 @@ footer {
   .sphinx li a:hover {
     border-bottom: dotted 1px gray; }
   .sphinx hr {
-    border-bottom: none;
-    border-top: dashed 1px #DDD;
+    border: none;
     margin: 20px 20px; }
   .sphinx em {
     font-weight: bold; }
@@ -115,8 +114,8 @@ footer {
   .sphinx cite {
     font-style: italic; }
   .sphinx code {
-    background-color: #FBEFED;
-    color: #C82A13;
+    background-color: #F1F1F1;
+    color: #333;
     padding: 1px 3px;
     font-family: Courier;
     border-radius: 2px; }
@@ -275,17 +274,17 @@ footer {
     font-size: 0.9em; }
   .sphinx .admonition.hint,
   .sphinx .admonition.tip {
-    background-color: #DCF9FC;
+    background-color: #F3F3F3;
     border-color: #66AFB6; }
   .sphinx .admonition.note {
-    background-color: #DCF9FC;
+    background-color: #F3F3F3;
     border-color: #66AFB6; }
   .sphinx .admonition.warning {
-    background-color: #FDF8E2;
+    background-color: #F3F3F3;
     border-color: #D3C176; }
   .sphinx .admonition.danger,
   .sphinx .admonition.error {
-    background-color: #FFECE9;
+    background-color: #F3F3F3;
     border-color: #D98C81; }
   .sphinx .hint .admonition-title,
   .sphinx .tip .admonition-title {
