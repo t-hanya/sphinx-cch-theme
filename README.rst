@@ -30,6 +30,13 @@ Build demo site::
 
 And please open `./_build/html/index.html`
 
+Screenhot
+=========
+
+.. image:: resources/top.png
+
+.. image:: resources/admotions.png
+
 License
 =========
 
