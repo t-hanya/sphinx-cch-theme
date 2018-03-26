@@ -30,10 +30,14 @@ Build demo site::
 
 And please open `./_build/html/index.html`
 
-Screenhot
-=========
+Screenhots
+==========
+
+Index page:
 
 .. image:: resources/top.png
+
+Admotions:
 
 .. image:: resources/admotions.png
 
