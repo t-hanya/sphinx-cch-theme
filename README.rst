@@ -30,8 +30,8 @@ Build demo site::
 
 And please open `./_build/html/index.html`
 
-Screenhots
-==========
+Screenshots
+===========
 
 Index page:
 
